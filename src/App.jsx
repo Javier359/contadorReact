@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import TituloSecundario from './components/TituloSecundario'
+import Contador from './components/Contador';
 
 function App() {
  // aqui agregaos toda la logica que necesita el componente
@@ -11,6 +12,7 @@ const anioActual = 2023;
    <section className='container my-4'>
     <h1 className='display-3 text-center'>Contador con React</h1>
     <TituloSecundario comision='c73i' anioActualProps={anioActual}></TituloSecundario>
+    <Contador/>
    </section>
    </>
   )
